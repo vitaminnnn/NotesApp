@@ -1,0 +1,46 @@
+.home__notes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 12px;
+}
+
+.home__category-buttons {
+    display: grid;
+    grid-template-columns: auto auto auto 1fr auto;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.home__create-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #3f51b5;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 0.26s ease-in-out;
+
+    &:hover {
+        transform: scale(1.04);
+    }
+}
+
+.home__favorite.favorite {
+    background-color: #3f51b5;
+}
+
+.home__favorite {
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    mask: url('https://cdn-icons-png.flaticon.com/512/833/833386.png') no-repeat center;
+    mask-size: contain;
+}

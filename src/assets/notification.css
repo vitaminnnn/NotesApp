@@ -1,0 +1,17 @@
+.notification {
+    max-width: 320px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+    right: 12px;
+    top: 12px;
+    color: rgb(30, 70, 32);
+    background-color: rgb(237, 247, 237);
+    border-radius: 5px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    gap: 16px;
+}

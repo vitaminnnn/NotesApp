@@ -1,0 +1,99 @@
+.note-item {
+    padding: 20px 16px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: left;
+    transition: transform 0.26s ease-in-out;
+    box-shadow:
+            rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+            rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.note-item__title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.note-item__content {
+    color: grey;
+    font-size: 16px;
+    margin-top: 8px;
+    line-height: 1.6em;
+}
+
+.note-item__labels {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.note-item__label {
+    background-color: #e8eaf6;
+    color: #3f51b5;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 8px;
+    border-radius: 4px;
+    width: fit-content;
+}
+
+.category {
+    color: #b71c1c;
+    background-color: #ffebee;
+    margin-top: 24px;
+}
+
+.note-item__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.note-item__actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.note-item__edit {
+    width: 20px;
+    height: 20px;
+    background-color: #3f51b5;
+    mask: url('https://cdn-icons-png.flaticon.com/512/1827/1827933.png') no-repeat center;
+    mask-size: contain;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.note-item__delete {
+    width: 20px;
+    height: 20px;
+    background-color: #b71c1c;
+    mask: url('https://cdn-icons-png.flaticon.com/512/542/542724.png') no-repeat center;
+    mask-size: contain;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.note-item__favorite {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    mask: url('https://cdn-icons-png.flaticon.com/512/833/833386.png') no-repeat center;
+    mask-size: contain;
+}
+
+.note-item__favorite.favorite {
+    background-color: #3f51b5;
+}
+
+.note-item__footer {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

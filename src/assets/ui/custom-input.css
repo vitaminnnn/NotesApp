@@ -1,0 +1,8 @@
+.custom-input__input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}

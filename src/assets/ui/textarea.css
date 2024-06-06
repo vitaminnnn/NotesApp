@@ -1,0 +1,9 @@
+.textarea__item {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #eeeeee;
+    height: auto;
+    resize: none;
+}
